@@ -1,0 +1,821 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yash Chhabra - Personal Portfolio</title>
+
+ 
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+ 
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Yash Chhabra" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Yash Chhabra">Yash Chhabra</h1>
+
+          <p class="title">Data Analyst</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">ansh1969yash@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91-9315072287</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">Dec 22, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>New Delhi, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/yash-chhabra-97b365250/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/YashChh" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>          
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/_yash_chhabra_18/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+         
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm Yash Chhabra, a skilled Data Analyst with a background in Data Analysis, Product Research and Data Science. Pursuing B.Tech
+in CSE and advanced skills in Python, SQL, and Machine Learning. Skilled in Power BI, Tableau, and MS Excel. Successfully led a team through a major client project and received recognition for it. Looking to
+leverage my expertise in a dynamic organization to contribute to its success while honing my Data Analytics and Data
+Science skills further. Passionate about advancing my skill set and gaining hands-on experience in the field of Data
+Analytics and Data Science.
+          </p>
+
+         
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg
+                " alt="analysis icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analysis using Python</h4>
+
+                <p class="service-item-text">
+                  Proficient in using Python for data analysis to derive actionable insights.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="extract icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Extraction</h4>
+
+                <p class="service-item-text">
+                  Skilled in extracting and transforming raw data into actionable insights.
+                </p>
+
+                <li class="service-item">
+
+                  <div class="service-icon-box">
+                    <img src="./assets/images/icon-quote.svg" alt="quote icon" width="40">
+                  </div>
+    
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Interactive Dashboard Reports</h4>
+    
+                    <p class="service-item-text">
+                      Creating interactive dashboard reports using Excel, Power Query, and Tableau.
+                    </p>
+              </div>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Shobha Motghare</h4>
+                <small style="color: white;">SUVIDHA FOUNDATION</small>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    It is my pleasure to write a recommendation for Yash Chhabra, who has been an invaluable member of our team at Suvidha Foundation. As the Founder and Secretary of Suvidha Foundation, I have had the privilege of observing Yash's exceptional contributions to our organization. Yash has demonstrated remarkable dedication and a strong work ethic throughout his tenure with us. His ability to tackle complex challenges with innovative solutions has been truly impressive. Yash's commitment to our mission and his passion for making a positive impact on the community are evident in everything he does. One of Yash's standout qualities is his superb teamwork and leadership skills. He consistently goes above and beyond to support his colleagues and ensure the success of our projects. His ability to communicate effectively and collaborate with others has made him a key player in our organization. Yash's work at Suvidha Foundation has been instrumental in driving our initiatives forward. He has shown great initiative and creativity in his approach, making significant contributions that have had a lasting impact on our programs and the people we serve. I wholeheartedly recommend Yash for any future endeavors he may pursue. His exceptional skills, dedication, and passion make him an asset to any organization. We are grateful for his contributions to Suvidha Foundation and confident that he will continue to excel in all his future endeavors.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">31 July, 2024</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">JIMS Engineering Management Technical Campus</h4>
+
+              <span>2021 — Present</span>
+
+              <p class="timeline-text">
+                B.Tech in Computer Science & Engineering.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Delhi Police Public School, Safdarjung Enclave</h4>
+
+              <span>2021</span>
+
+              <p class="timeline-text">
+                Completed 12th standard under CBSE curriculum.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Delhi Police Public School, Safdarjung Enclave</h4>
+
+              <span>2019</span>
+
+              <p class="timeline-text">
+                Completed 10th standard under CBSE curriculum.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Product Research Intern - Animall Technologies</h4>
+
+              <span>26 Feb, 2025 — 29 March, 2025</span>
+
+              <p class="timeline-text">
+                Preprocessed, cleaned, and validated data using Excel for a weight prediction model. Ensured data accuracy and
+consistency before the project was discontinued.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Science & Analytics Intern - Zidio Development</h4>
+
+              <span>20 May, 2024 — 20 Aug, 2024</span>
+
+              <p class="timeline-text">
+                Assisted in user acceptance testing of analytics tools, ensuring accurate results and seamless integration with
+existing systems, Supported marketing initiatives through targeted audience segmentation and campaign performance analysis,
+resulting in improved return on investment while maintaining high levels of accuracy and attention to detail throughout all tasks, ensuring reliable deliverables that
+consistently met or exceeded expectations.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Machine Learning Intern - Suvidha Foundation</h4>
+
+              <span>20 Nov, 2023 - 22 Dec, 2023 — Present</span>
+
+              <p class="timeline-text">
+                Understanding the requirements, Build datasets, developed assigned projects and
+evaluated the performance of different algorithms on benchmark datasets, guiding informed decisions about
+algorithm selection for specific projects.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My Skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analysis (Python)</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Tableau</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MySQL</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Power BI</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="85">65%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+          
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p-1.jpeg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">STORE ANANLYSIS</h3>
+
+                <p class="project-category">Excel Dashboard</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="dashboard">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p-2.jpeg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NETFLIX ANALYSIS</h3>
+
+                <p class="project-category">Tableau Dashboard</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p-3.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SPEECH EMOTION RECOGNITION</h3>
+
+                <p class="project-category">Python Project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CUSTOMER SEGMENTATION</h3>
+
+                <p class="project-category">Python Project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p-5.jpeg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SALES REPORT ANALYSIS</h3>
+
+                <p class="project-category">Power BI Dashboard</p>
+
+              </a>
+            </li>
+
+         
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="contact-form">
+      
+          <h3 class="h3 form-title">Contact Form</h3>
+      
+          <form id="contactForm" class="form" data-form>
+      
+            <div class="input-wrapper">
+              <input type="hidden" name="access_key" value="3b31ec38-086a-466b-a36b-05d4e94419b2">
+      
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+      
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+      
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+      
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+      
+          </form>
+      
+        </section>
+      
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script>
+    // Enable the form button when inputs are filled
+    document.querySelectorAll("[data-form-input]").forEach(input => {
+      input.addEventListener("input", () => {
+        const allFilled = [...document.querySelectorAll("[data-form-input]")].every(i => i.value.trim() !== "");
+        document.querySelector("[data-form-btn]").disabled = !allFilled;
+      });
+    });
+    
+    // Handle form submission
+    document.getElementById("contactForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+    
+      const formData = new FormData(this);
+    
+      fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+      })
+      .then(response => response.json())
+      .then(result => {
+        if (result.success) {
+          Swal.fire({
+            icon: "success",
+            title: "Message Sent",
+            text: "Thank you! Your message has been successfully sent.",
+            confirmButtonText: "OK"
+          });
+        } else {
+          Swal.fire({
+            icon: "error",
+            title: "Error",
+            text: "Something went wrong. Please try again.",
+            confirmButtonText: "OK"
+          });
+        }
+      })
+      .catch(error => {
+        Swal.fire({
+          icon: "error",
+          title: "Error",
+          text: "Network error. Please check your connection and try again.",
+          confirmButtonText: "OK"
+        });
+      });
+    });
+    </script>
+  <!--
+    - ionicon link
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
