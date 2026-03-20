@@ -50,10 +50,7 @@ a {
 }
 
 li {
-  list-style: none
-  color: var(--light-gray);
-  font-weight: var(--fw-300);
-  line-height: 1.6;
+  list-style: none;
 }
 
 img, ion-icon, a, button, time, span {
