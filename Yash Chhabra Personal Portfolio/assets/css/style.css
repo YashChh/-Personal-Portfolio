@@ -54,7 +54,7 @@ li {
 }
 
 .custom-list li {
-  list-style: disc;
+  list-style: disc !important;
 }
 
 img, ion-icon, a, button, time, span {
